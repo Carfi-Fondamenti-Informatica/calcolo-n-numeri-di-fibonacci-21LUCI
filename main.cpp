@@ -8,7 +8,7 @@ int main() {
         cout<<"errore"<<endl;
     }else{
         cout<<a<<"\n"<<b<<endl;
-        for (int i=2; i<n; i++) {
+        for (int i=0; i<n; i++) {
             c=a+b;
             a=b;
             b=c;

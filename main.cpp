@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n=0,a=1,b=1,c;
+    int n,a=1,b=1,c;
     cin>>n;
     if(n<2){
         cout<<"errore"<<endl;
@@ -18,3 +18,4 @@ int main() {
 
     return 0;
 }
+// prof non so se è giusto, a un certo punto compaiono numeri negativi
